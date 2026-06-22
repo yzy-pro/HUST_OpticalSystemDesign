@@ -1,17 +1,18 @@
 # Fdb version 4
-["biber main"] 1782143403.87286 "main.bcf" "main.bbl" "main" 1782143410.79121 0
+["biber main"] 1782143403.87286 "main.bcf" "main.bbl" "main" 1782144297.54764 0
   "chapters/reference/references.bib" 1782142858.00556 2559 1cfffc3cb327506cc5f3de25e2768d76 ""
-  "main.bcf" 1782143407.78769 138455 c4acd5d10515f6f68d1201fe9fd7dc33 "xelatex"
+  "main.bcf" 1782144294.54952 138455 c4acd5d10515f6f68d1201fe9fd7dc33 "xelatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1782143407.85733 "main.xdv" "main.pdf" "main" 1782143410.79293 0
-  "main.xdv" 1782143407.78907 348716 b7431604cd7ec4c981dd013c229b86d5 "xelatex"
+["xdvipdfmx"] 1782144294.61565 "main.xdv" "main.pdf" "main" 1782144297.54937 0
+  "main.xdv" 1782144294.55164 352972 0430965413704d8780910bfe3a1c34c1 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1782143406.31213 "main.tex" "main.xdv" "main" 1782143410.79131 0
+["xelatex"] 1782144293.10502 "/home/yzy/code/OpticalSystemDesign/main.tex" "main.xdv" "main" 1782144297.54773 0
+  "/home/yzy/code/OpticalSystemDesign/main.tex" 1782139974.51798 1168 66b12281cb9acf06e0c8ef9c7f6b23ec ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -135,7 +136,7 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1745761497 5854851 9405beb4c6cd273e0bd26aa5e146f3e8 ""
   "/usr/local/texlive/2025/texmf.cnf" 1745761447.97632 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "chapters/abstract/abstract.tex" 1782143110.76295 2072 b37f29fa71f9cddfd12e3472d5106403 ""
-  "chapters/chapter1/chapter1.tex" 1782143295.15849 8697 ef5388b4a5c84669701306eb7c001770 ""
+  "chapters/chapter1/chapter1.tex" 1782143823.91549 8614 aab0ea70c7111281a3c88b9a5957120e ""
   "chapters/chapter1/figures/2D_layout.png" 1782141071.80788 2130987 55c125048edcddf05d5ff6dcb32240f9 ""
   "chapters/chapter10/chapter10.tex" 1782142004.04228 1792 8b489ba26d3e1a9b8ce78a5e4d873715 ""
   "chapters/chapter10/figures/image18.png" 1782140390.45018 71725 6338a0ab4e479aa7bfdb1be5c2514baf ""
@@ -145,14 +146,14 @@
   "chapters/chapter10/figures/image22.png" 1782140390.4505 75952 220668bea82c96702416acda7b303295 ""
   "chapters/chapter10/figures/image23.png" 1782140390.45055 52693 94b3f6d1fc0957cc8acc62f8ed49ad46 ""
   "chapters/chapter10/figures/image24.png" 1782140390.45066 73837 7002af3fed4110d2421c19a85900e38f ""
-  "chapters/chapter2/chapter2.tex" 1782142723.48498 2470 9bfed61a958fcdc0e8ea513bc681cccd ""
-  "chapters/chapter3/chapter3.tex" 1782143392.41604 10919 9ff366f4d530f9e5e02bb816015f5b23 ""
+  "chapters/chapter2/chapter2.tex" 1782144172.87111 2473 ce5793bd695560c3118322f8153b8267 ""
+  "chapters/chapter3/chapter3.tex" 1782144185.0369 10949 26cd2029efcb7119ae48df8147f0de99 ""
   "chapters/chapter3/figures/lens_data.png" 1782138777.32885 118925 a678e87a6f554c6eedb71d2d37ca2eec ""
-  "chapters/chapter4/chapter4.tex" 1782143139.37696 3938 9fedda26958478f289b15b7e955cd6af ""
+  "chapters/chapter4/chapter4.tex" 1782143773.91531 3967 6e5cc8f4ef9c99555b53db37555c5649 ""
   "chapters/chapter4/figures/2D_layout.png" 1782138981.15267 2788787 8600ed27a88457d97ce80c5599d7b6a4 ""
   "chapters/chapter4/figures/MTF.png" 1782140606.22885 3349315 7896e2406bc37ddaea5dbf5ca3938a36 ""
   "chapters/chapter4/figures/field_and_distortion.png" 1782140625.74451 3349315 a02be3ae59789b006374087c00a3adb9 ""
-  "chapters/chapter5/chapter5.tex" 1782143131.97921 8122 d7df6bdab7b9b4da22d71b459746efb4 ""
+  "chapters/chapter5/chapter5.tex" 1782144245.3585 8113 121940c0a33b6bc012a28491f9f9ef26 ""
   "chapters/chapter5/figures/CurvDist_chrome.png" 1782139807.97358 56024 93b1368751c12a966e3e6597e239cff4 ""
   "chapters/chapter5/figures/FFTMTF2_chrome.png" 1782139808.45761 124538 2172b686b7349e9e17373662f84b975c ""
   "chapters/chapter5/figures/FieldCurv_chrome.png" 1782139808.85163 74784 18fb2bc95462839e25c7308ed27d2eb0 ""
@@ -162,21 +163,21 @@
   "chapters/chapter5/figures/OPDFan.jpg" 1782139281.17833 152288 1d4f6a32b63c16eba2a48fd977db2a95 ""
   "chapters/chapter5/figures/RelativeIllumination_chrome.png" 1782139809.24765 71990 ef841bd8984c788a92fc1e76698ed189 ""
   "chapters/chapter5/figures/SpotDiagram_chrome.png" 1782139809.80868 129376 84cab844752756350b0edf7e4308affe ""
-  "chapters/chapter6/chapter6.tex" 1782142922.73539 5675 71bfddb8d8f11654733ca242447f670b ""
+  "chapters/chapter6/chapter6.tex" 1782144197.56569 5723 78aa83f8f267858d56a595d29a9fff19 ""
   "chapters/chapter6/figures/FieldandDistrafterMonteCarlo.png" 1782139524.93021 3349315 d57800b9c96927c32fa18d9ac201287c ""
   "chapters/chapter6/figures/LLMafterMonteCarlo.png" 1782139553.75915 3349315 4ae6356100dd408f3c8b66ea0d097c09 ""
   "chapters/chapter6/figures/MTFafterMonteCarlo.png" 1782139405.88893 3349315 5223242b70704d085e8bdba026843f27 ""
   "chapters/chapter6/figures/Sensitive.png" 1782139379.96436 2269961 568b5077dd50dd1b0ed98d81b8d3b2f3 ""
-  "chapters/chapter7/chapter7.tex" 1782128028.66121 3171 79b62c29a728cdd29d2792e360c1169f ""
-  "chapters/chapter8/chapter8.tex" 1782142326.44687 2912 53b072b3607742084feaf021d24a7183 ""
+  "chapters/chapter7/chapter7.tex" 1782143855.42797 3909 299fa1cf2fcf9e5f2a3cc6b889c58f0d ""
+  "chapters/chapter8/chapter8.tex" 1782144212.20359 2888 cffa78eb915f70ffc662c94c409f30bc ""
   "chapters/coverpage/coverpage.tex" 1782141011.32927 1588 a852a44e702bffa21f31dc04c9fbff1f ""
   "chapters/reference/reference.tex" 1782129445.35085 58 10e1be8a5cbf6dec626dd15b4417710a ""
-  "main.aux" 1782143407.78647 16441 417fb32292ddcfa557bbac787cfef283 "xelatex"
+  "main.aux" 1782144294.54704 16405 682d67bfbc2917f324aa69c222bfab0d "xelatex"
   "main.bbl" 1782143404.76132 23546 084175b35f4a023bb39cf38f9b31e2e9 "biber main"
-  "main.out" 1782143407.78749 6068 b32405424618f443bfcd16a62c1ab36a "xelatex"
-  "main.run.xml" 1782143407.78907 2470 8bdc9aa91df3209ddf5085a7c002a608 "xelatex"
+  "main.out" 1782144294.54804 5963 83108360fad27d01363de0ab12fe0041 "xelatex"
+  "main.run.xml" 1782144294.55118 2470 8bdc9aa91df3209ddf5085a7c002a608 "xelatex"
   "main.tex" 1782139974.51798 1168 66b12281cb9acf06e0c8ef9c7f6b23ec ""
-  "main.toc" 1782143407.78907 4506 b97a245011eed2e766555406164e8db5 "xelatex"
+  "main.toc" 1782144294.55118 4470 fd0c18f36bd543ba4fa5558cb962f36d "xelatex"
   (generated)
   "main.aux"
   "main.bcf"
