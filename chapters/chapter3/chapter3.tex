@@ -1,0 +1,126 @@
+\section{设计步骤}
+
+\subsection{初始结构的选择}
+
+初始结构的选取是光学设计的重要起点，良好的初始结构可以大幅减少后续优化的难度，避免陷入局部最优。凯尔纳目镜的初始参数获取方法主要有以下几种：
+
+\begin{itemize}
+\item
+  方法一：经典光学教材（如《工程光学》）中的典型凯尔纳目镜参数，其结构清晰，可直接用于建模；
+\item
+  方法二：从公开光学专利数据库中查找与设计指标相近的结构，通过焦距缩放和参数调整使其满足要求；
+\item
+  方法三：基于像差理论（薄透镜像差公式）推导初始解，适用于对系统结构有较深理解的设计者。
+\end{itemize}
+
+本设计采用方法一，参考经典凯尔纳目镜的典型结构作为初始方案，并在Zemax中通过Scale Lens功能对各面的曲率半径和厚度进行等比例缩放，使有效焦距精确调整为25 mm。初始结构的镜头数据如下表所示：
+
+表1.1 系统初始结构（Lens Data）
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0776}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1551}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1662}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1440}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1551}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1358}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1662}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{面号} & \textbf{面型} & \textbf{曲率半径 R (mm)} & \textbf{厚度 T (mm)} & \textbf{玻璃材料} & \textbf{净口径 (mm)} & \textbf{备注} \\
+OBJ & 标准面 & Infinity & Infinity & --- & --- & 物面（焦平面） \\
+1 & 标准面 & Infinity & 2.00 & BK7 & 10.5 & 场镜前表面（平面） \\
+2 & 标准面 & −18.00 & 1.50 & --- & 10.2 & 场镜后表面（凸面） \\
+3 & 标准面 & --- & 8.00 & --- & 7.8 & 空气间隔 \\
+4 & 标准面 & 28.00 & 4.50 & BK7 & 6.5 & 双合镜冕牌玻璃前表面 \\
+5 & 标准面 & −18.50 & 2.00 & F2 & 6.2 & 双合镜胶合面 \\
+6 & 标准面 & −65.00 & 14.00 & --- & 6.0 & 双合镜后表面 \\
+IMA & 标准面 & Infinity & --- & --- & --- & 像面（出瞳/人眼位置） \\
+\end{longtable}
+
+注：上表中空气间隔（面3）的曲率半径栏以Infinity表示。各面净口径为初步估计值，以入瞳直径和视场角计算得到，实际值以Zemax仿真结果为准。
+
+\subsubsection{Zemax建模步骤}
+
+在Zemax OpticStudio中建立初始模型的具体步骤如下：
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  新建Sequential模式工程，在System Explorer中设置孔径类型为入瞳直径（Entrance Pupil Diameter），，数值设为5 mm；
+\item
+  在Fields（视场）选项中设置三个视场：0°（轴上）、14°（0.7倍视场）、20°（全视场），对应观测位置的不同方向；
+\item
+  在Wavelengths（波长）中添加三个工作波长：587.6 nm（d光，权重1，主波长）、486.1 nm（F光，权重1）、656.3 nm（C光，权重1）；
+\item
+  在Lens Data Editor中依次录入各面的曲率半径、厚度和玻璃材料（BK7、F2），胶合面（面5）不填玻璃，厚度即为火石玻璃厚度；
+\item
+  通过System Data菜单确认有效焦距（EFL）是否约为25 mm，若偏差较大，使用Scale Lens功能整体缩放；
+\item
+  在Layout分析窗口查看2D光路图，确认光线走向正确，无全内反射或光线截断等异常情况。
+\end{enumerate}
+
+\emph{【图1.2 Zemax初始结构Lens Data Editor截图】}
+
+图 1.2 Zemax初始结构Lens Data Editor截图
+
+\subsection{手动修改参数}
+
+由于初始结构来源于教材，直接按比例缩放后可能存在以下问题，需要在进行自动优化之前手动修改部分参数：
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  场曲过大：初始结构的切向和弧矢焦面分离明显，需要微调场镜曲率半径，利用场镜弯月形状引入反向场曲进行预校正；
+\item
+  出瞳距离不足：若自动求解后出瞳位置不满足\(\ge\)10 mm要求，需调整场镜与双合镜之间的空气间隔；
+\item
+  全内反射风险：在较大视场角下，某些面（尤其是场镜后表面）可能出现全反射，需检查各面的入射角是否超过临界角，必要时适当增大该面的曲率半径；
+\item
+  相对照度过低：全视场的相对照度若低于80\%，说明存在渐晕，需调整光阑位置或透镜口径。
+\end{enumerate}
+
+手动调整的重点是面2（场镜后表面曲率半径）和面3（空气间隔）这两个参数，通过在Zemax中实时观察像差曲线和系统数据，逐步将系统调整到接近设计要求的初始状态，然后再进行自动优化。
+
+\subsection{设置优化函数}
+
+在Zemax的Merit Function Editor中进行评价函数设置，是自动优化前的关键步骤。评价函数的设置直接决定了优化的方向和最终结果的质量。
+
+对于本次凯尔纳目镜设计，优化评价函数的设置策略如下：
+
+\begin{itemize}
+\item
+  机械约束：使用EFFL控制系统有效焦距为25 mm；使用TOTR控制系统总长不超过40 mm；用MNCG、MNEG控制各镜片的最小中心/边缘厚度，以保证加工可行性；
+\item
+  像差约束：使用DIMX控制最大畸变不超过5\%；使用RELI控制各视场相对照度；使用OPDX对各视场的RMS波前误差进行最小化；
+\item
+  视场均衡：对三个视场（0°、14°、20°）分别设置权重（1:1:1），保证全视场成像质量的均匀性；
+\item
+  优化基础：采用Zemax内置的RMS波前误差优化向导作为基础，在此之上叠加上述约束操作数。
+\end{itemize}
+
+表3.1 Merit Function主要操作数设置
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1662}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3353}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1773}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1551}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1662}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{操作数} & \textbf{含义} & \textbf{目标值} & \textbf{权重} & \textbf{备注} \\
+EFFL & 系统有效焦距 & 25 mm & 10 & 强约束 \\
+TOTR & 系统总长 & \(\le\) 40 mm & 3 & 保证紧凑性 \\
+DIMX & 最大畸变（F-Tan \(\theta\)） & \(\le\) 5\% & 5 & 全视场 \\
+RELY & 相对照度 & \(\ge\) 0.80 & 3 & 边缘视场 \\
+OPDX & OPD均方根波前误差 & 最小化 & 1 & 各视场均衡 \\
+MNCG & 最小中心厚度（玻璃） & \(\ge\) 1.5 mm & 5 & 可加工性 \\
+MNEG & 最小边缘厚度（玻璃） & \(\ge\) 0.8 mm & 5 & 防碎裂 \\
+\end{longtable}
+
+此外，为保证优化过程的稳定性，还需对各玻璃面设置MNCA（最小中心厚度）、MNCG（玻璃最小中心厚度）、MNEG（最小边缘厚度）操作数，防止优化过程中出现不合理的结构（如负厚度或过薄镜片）。

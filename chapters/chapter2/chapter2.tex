@@ -1,0 +1,39 @@
+\section{设计技术指标}
+
+本次设计任务要求的指标如下，各参数的选取依据凯尔纳目镜的经典参数范围，并兼顾实际应用需求：
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3545}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3117}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3338}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\textbf{参数名称} & \textbf{设计指标} & \textbf{说明} \\
+有效焦距（EFL） & 25 mm & 决定放大率 \\
+表观视场角（AFOV） & ±20°（半视场） & 合计视场40° \\
+入瞳直径 & 5 mm & 与人眼匹配 \\
+出瞳距离（Eye Relief） & \(\ge\) 10 mm & 便于佩戴眼镜观测 \\
+工作波长 & 486.1 / 587.6 / 656.3 nm & F、d、C三线 \\
+最大畸变 & \(\le\) 5\% & F-Tan(\(\theta\))畸变 \\
+轴上色差 & 尽量校正 & RMS色差最小化 \\
+镜片数量 & 3片 & 1场镜+2片双合 \\
+玻璃材料 & BK7、F2 & 标准光学玻璃 \\
+\end{longtable}
+
+注意事项：
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  目视光学系统（望远镜目镜）的入瞳即物镜的出瞳，大小约为2～5 mm，本设计取5 mm；
+\item
+  出瞳距离是目视舒适性的重要保证，本设计要求\(\ge\)10 mm，优化过程中需将其列为约束条件；
+\item
+  三色波长中以587.6 nm（氦d线）为主波长，对F光（486.1 nm）和C光（656.3 nm）进行色差校正；
+\item
+  镜片数量限制为3片（1片场镜+2片消色差双合镜），以保证结构的简洁性和低成本；
+\item
+  优化过程中需同时兼顾轴上和轴外视场的像差平衡，不可片面追求某一视场的最优像质。
+\end{enumerate}
