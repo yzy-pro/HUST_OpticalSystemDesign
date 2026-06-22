@@ -6,7 +6,7 @@
 
 \subsubsection{局部优化（DLS算法）}
 
-首先使用阻尼最小二乘法（Damped Least Squares, DLS）进行局部优化。DLS算法适合在初始解质量较好、像差水平不过于恶劣的情况下使用，收敛速度快\cite{Zemax2021}。
+首先使用阻尼最小二乘法（Damped Least Squares, DLS）进行局部优化。DLS算法适合在初始解质量较好、像差水平不过于恶劣的情况下使用，收敛速度快\cite{Fischer2008,Zemax2021}。
 
 操作步骤：打开Optimize菜单，选择Local Optimization，算法选择DLS，勾选Auto Update以实时查看2D布局图和像差曲线的变化。观察Merit Function数值，当连续多次迭代后数值趋于稳定（变化量小于0.1\%），停止优化。
 
@@ -18,10 +18,6 @@
   \caption{初步优化后2D布局图（Layout）}
   \label{fig:chapter4-layout}
 \end{figure}
-
-\emph{【图4.2 初步优化后标准点列图（Spot Diagram）】}
-
-图 4.2 初步优化后标准点列图
 
 \begin{figure}[H]
   \centering

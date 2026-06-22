@@ -9,29 +9,30 @@
 表5.1 最终设计结果镜头数据
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.0776}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1551}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1662}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1440}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1551}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1358}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 12\tabcolsep) * \real{0.1662}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.0600}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1100}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1300}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1050}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1150}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1150}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 14\tabcolsep) * \real{0.1150}}@{}}
 \toprule\noalign{}
 \endhead
 \bottomrule\noalign{}
 \endlastfoot
-\textbf{面号} & \textbf{面型} & \textbf{曲率半径 R (mm)} & \textbf{厚度 T (mm)} & \textbf{玻璃材料} & \textbf{净口径 (mm)} & \textbf{备注} \\
-OBJ & 标准面 & Infinity & Infinity & --- & --- & 物面 \\
-1 & 标准面 & Infinity & 2.12 & BK7 & 10.8 & 场镜（平凸） \\
-2 & 标准面 & −21.34 & 1.50 & --- & 10.5 & 场镜后表面 \\
-3 & 标准面 & --- & 7.82 & --- & 8.0 & 空气间隔（可调） \\
-4 & 标准面 & 26.47 & 4.68 & BK7 & 6.8 & 双合镜冕牌 \\
-5 & 标准面 & −19.05 & 2.15 & F2 & 6.4 & 双合镜胶合面 \\
-6 & 标准面 & −71.20 & 14.00 & --- & 6.1 & 双合镜后表面 \\
-IMA & 标准面 & Infinity & --- & --- & --- & 像面/出瞳 \\
+\textbf{面号} & \textbf{面型} & \textbf{曲率半径 R (mm)} & \textbf{厚度 T (mm)} & \textbf{玻璃材料} & \textbf{净半口径 (mm)} & \textbf{机械半口径 (mm)} & \textbf{备注} \\
+0 & 标准面 & Infinity & Infinity & --- & Infinity & Infinity & 物面 \\
+1 & 标准面 & Infinity & 10.427 & --- & 2.000 & 2.000 & 光阑 \\
+2 & 标准面 & 338.959 & 6.000 & REALVIEW\_1.9\_\allowbreak LIGHTWEIGHT & 6.344 & 6.344 & 玻璃面 \\
+3 & 标准面 & 17.572 & 4.626 & N-BASF64 & 7.861 & 7.861 & 玻璃面 \\
+4 & 标准面 & -19.711 & 0.300 & --- & 8.162 & 8.162 & 空气间隔 \\
+5 & 标准面 & 13.165 & 6.000 & H-ZLAF75C & 9.363 & 9.363 & 玻璃面 \\
+6 & 标准面 & 10.183 & 20.950 & --- & 7.480 & 7.480 & 空气间隔 \\
+7 & 标准面 & Infinity & --- & --- & 12.613 & 12.613 & 像面 \\
 \end{longtable}
 
-根据进一步优化后的System/Prescription Data报告，最终系统的有效焦距EFFL = 30.0 mm，后焦距BFL = 21.78249 mm，系统总长Total Track = 46.19713 mm，入瞳直径为4 mm，出瞳直径为5.662859 mm，出瞳位置为-42.23159 mm，最大径向视场为22.5°。
+表5.1列出了进一步优化后的最终镜头结构参数。根据最终System/Prescription Data与Lens Data，系统的有效焦距EFFL = 30.0 mm，后焦距约为20.950 mm，光阑面至像面的有限厚度合计约为48.303 mm，入瞳直径为4 mm，出瞳直径为5.662859 mm，出瞳位置为-42.23159 mm，最大径向视场为22.5°。
 
 \subsubsection{（2）2D布局图}
 
@@ -104,12 +105,6 @@ IMA & 标准面 & Infinity & --- & --- & --- & 像面/出瞳 \\
   \label{fig:chapter5-opd}
 \end{figure}
 
-% \subsubsection{（8）光线扇形图（Ray Fan）}
-
-% \emph{【图5.7 最终优化后光线扇形图（Ray Aberration Fan）】}
-
-% 图 5.7 最终优化后光线扇形图
-
 \subsubsection{（8）图像模拟}
 
 \begin{figure}[H]
@@ -141,7 +136,7 @@ IMA & 标准面 & Infinity & --- & --- & --- & 像面/出瞳 \\
 有效焦距（EFL） & 30 mm & --- & 30.0 mm & \checkmark{} \\
 最大径向视场 & ±22.5° & ±20° & ±22.5° & \checkmark{} \\
 入瞳直径 & 4 mm & --- & 4.0 mm & \checkmark{} \\
-后焦距（BFL） & --- & --- & 21.78249 mm & --- \\
+后焦距（BFL） & --- & --- & 约20.950 mm & --- \\
 出瞳直径 & --- & --- & 5.662859 mm & --- \\
 出瞳位置 & --- & --- & -42.23159 mm & --- \\
 最大畸变 & \(\le\) 5\% & 约8.2\% & 约1.7\% & \checkmark{} \\
@@ -157,7 +152,7 @@ IMA & 标准面 & Infinity & --- & --- & --- & 像面/出瞳 \\
 
 \subsubsection{（2）透镜总长度}
 
-系统总长Total Track = 46.19713 mm，后焦距BFL = 21.78249 mm；该数值以进一步优化后的系统参数报告为准。
+由进一步优化后的Lens Data可得，光阑面至像面的有限厚度合计约为48.303 mm，最后一面到像面的距离（后焦距）约为20.950 mm。
 
 \subsubsection{（3）视场角}
 
