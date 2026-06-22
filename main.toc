@@ -6,45 +6,44 @@
 \contentsline {section}{\numberline {2}设计技术指标}{5}{section.2}%
 \contentsline {section}{\numberline {3}设计步骤}{6}{section.3}%
 \contentsline {subsection}{\numberline {3.1}初始结构的选择}{6}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Zemax建模步骤}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Zemax建模步骤}{7}{subsubsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.2}手动修改参数}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}设置优化函数}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}设置优化函数}{8}{subsection.3.3}%
 \contentsline {section}{\numberline {4}优化步骤}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}初步优化}{8}{subsection.4.1}%
-\contentsline {subsubsection}{\numberline {4.1.1}局部优化（DLS算法）}{8}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}锤形优化（Hammer Optimization）}{9}{subsubsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}进一步优化思路}{9}{subsection.4.2}%
-\contentsline {section}{\numberline {5}设计结果及性能评估}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}设计结果}{9}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}（1）镜头数据}{10}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}（2）2D布局图}{10}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}（3）标准点列图}{10}{subsubsection.5.1.3}%
-\contentsline {subsubsection}{\numberline {5.1.4}（4）MTF曲线}{10}{subsubsection.5.1.4}%
-\contentsline {subsubsection}{\numberline {5.1.5}（5）场曲与畸变曲线}{10}{subsubsection.5.1.5}%
-\contentsline {subsubsection}{\numberline {5.1.6}（6）相对照度曲线}{10}{subsubsection.5.1.6}%
-\contentsline {subsubsection}{\numberline {5.1.7}（7）波前误差图（OPD Fan）}{11}{subsubsection.5.1.7}%
-\contentsline {subsubsection}{\numberline {5.1.8}（8）光线扇形图（Ray Fan）}{11}{subsubsection.5.1.8}%
-\contentsline {subsubsection}{\numberline {5.1.9}（9）图像模拟}{11}{subsubsection.5.1.9}%
-\contentsline {subsection}{\numberline {5.2}性能评估}{11}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}（1）有效焦距}{11}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}（2）透镜总长度}{11}{subsubsection.5.2.2}%
-\contentsline {subsubsection}{\numberline {5.2.3}（3）视场角}{11}{subsubsection.5.2.3}%
-\contentsline {subsubsection}{\numberline {5.2.4}（4）出瞳距离}{12}{subsubsection.5.2.4}%
-\contentsline {subsubsection}{\numberline {5.2.5}（5）相对照度}{12}{subsubsection.5.2.5}%
-\contentsline {subsubsection}{\numberline {5.2.6}（6）畸变}{12}{subsubsection.5.2.6}%
-\contentsline {subsubsection}{\numberline {5.2.7}（7）色差分析}{12}{subsubsection.5.2.7}%
-\contentsline {section}{\numberline {6}公差分析}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}公差分析的意义}{12}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}公差设置}{12}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}灵敏度分析}{13}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}蒙特卡洛分析}{13}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}补偿器设置}{14}{subsection.6.5}%
-\contentsline {section}{\numberline {7}存在的问题}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}（1）场曲校正与畸变的矛盾}{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}（2）出瞳距离与视场角的制约关系}{14}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}（3）像高未能完全达到指标}{14}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}（4）玻璃材料选取的局限性}{14}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}（5）公差分析中灵敏度过高的问题}{15}{subsection.7.5}%
-\contentsline {section}{\numberline {8}总结与心得体会}{15}{section.8}%
-\contentsline {section}{\numberline {9}工程制图}{16}{section.9}%
-\contentsline {section}{参考文献}{16}{section*.3}%
+\contentsline {subsubsection}{\numberline {4.1.1}局部优化（DLS算法）}{9}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}锤形优化（Hammer Optimization）}{11}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}进一步优化思路}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {5}设计结果及性能评估}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}设计结果}{11}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}（1）镜头数据}{11}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}（2）2D布局图}{12}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.3}（3）标准点列图}{13}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {5.1.4}（4）MTF曲线}{14}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {5.1.5}（5）场曲与畸变曲线}{15}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {5.1.6}（6）相对照度曲线}{16}{subsubsection.5.1.6}%
+\contentsline {subsubsection}{\numberline {5.1.7}（7）波前误差图（OPD Fan）}{17}{subsubsection.5.1.7}%
+\contentsline {subsubsection}{\numberline {5.1.8}（8）图像模拟}{18}{subsubsection.5.1.8}%
+\contentsline {subsection}{\numberline {5.2}性能评估}{18}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}（1）有效焦距}{19}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}（2）透镜总长度}{19}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.3}（3）视场角}{19}{subsubsection.5.2.3}%
+\contentsline {subsubsection}{\numberline {5.2.4}（4）孔径与出瞳参数}{19}{subsubsection.5.2.4}%
+\contentsline {subsubsection}{\numberline {5.2.5}（5）相对照度}{19}{subsubsection.5.2.5}%
+\contentsline {subsubsection}{\numberline {5.2.6}（6）畸变}{19}{subsubsection.5.2.6}%
+\contentsline {subsubsection}{\numberline {5.2.7}（7）色差分析}{19}{subsubsection.5.2.7}%
+\contentsline {section}{\numberline {6}公差分析}{19}{section.6}%
+\contentsline {subsection}{\numberline {6.1}公差分析的意义}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}公差设置}{20}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}灵敏度分析}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}蒙特卡洛分析}{20}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}补偿器设置}{22}{subsection.6.5}%
+\contentsline {section}{\numberline {7}存在的问题}{22}{section.7}%
+\contentsline {subsection}{\numberline {7.1}（1）场曲校正与畸变的矛盾}{23}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}（2）出瞳距离与视场角的制约关系}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}（3）像高未能完全达到指标}{23}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}（4）玻璃材料选取的局限性}{23}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}（5）公差分析中灵敏度过高的问题}{23}{subsection.7.5}%
+\contentsline {section}{\numberline {8}总结与心得体会}{23}{section.8}%
+\contentsline {section}{\numberline {9}工程制图}{24}{section.9}%
+\contentsline {section}{参考文献}{28}{section*.3}%

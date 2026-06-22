@@ -12,21 +12,30 @@
 
 初步优化完成后，Merit Function数值从初始值大幅下降，点列图弥散斑明显缩小，MTF曲线整体上移，但可能存在局部像差（如彗差或场曲）仍未完全校正的情况。
 
-\emph{【图4.1 初步优化后2D布局图】}
-
-图 4.1 初步优化后2D布局图（Layout）
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{chapters/chapter4/figures/2D_layout.png}
+  \caption{初步优化后2D布局图（Layout）}
+  \label{fig:chapter4-layout}
+\end{figure}
 
 \emph{【图4.2 初步优化后标准点列图（Spot Diagram）】}
 
 图 4.2 初步优化后标准点列图
 
-\emph{【图4.3 初步优化后MTF曲线】}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{chapters/chapter4/figures/MTF.png}
+  \caption{初步优化后MTF曲线}
+  \label{fig:chapter4-mtf}
+\end{figure}
 
-图 4.3 初步优化后MTF曲线
-
-\emph{【图4.4 初步优化后场曲与畸变图】}
-
-图 4.4 初步优化后场曲与畸变图
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.95\textwidth]{chapters/chapter4/figures/field_and_distortion.png}
+  \caption{初步优化后场曲与畸变图}
+  \label{fig:chapter4-field-distortion}
+\end{figure}
 
 通过以上分析可以看出，初步优化后的系统在以下方面仍有不足：畸变在全视场边缘仍约为15\%，超过设计指标；全视场相对照度存在一定下降；MTF曲线在高频段仍有较大改善空间。因此，需要进一步进行全局优化和手动调整。
 
