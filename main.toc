@@ -38,13 +38,13 @@
 \contentsline {subsection}{\numberline {6.2}公差设置}{12}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}灵敏度分析}{13}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}蒙特卡洛分析}{13}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}补偿器设置}{13}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.5}补偿器设置}{14}{subsection.6.5}%
 \contentsline {section}{\numberline {7}存在的问题}{14}{section.7}%
 \contentsline {subsection}{\numberline {7.1}（1）场曲校正与畸变的矛盾}{14}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}（2）出瞳距离与视场角的制约关系}{14}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}（3）像高未能完全达到指标}{14}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}（4）玻璃材料选取的局限性}{14}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}（5）公差分析中灵敏度过高的问题}{14}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.5}（5）公差分析中灵敏度过高的问题}{15}{subsection.7.5}%
 \contentsline {section}{\numberline {8}总结与心得体会}{15}{section.8}%
-\contentsline {section}{\numberline {9}参考文献/专利}{15}{section.9}%
-\contentsline {section}{\numberline {10}工程制图}{16}{section.10}%
+\contentsline {section}{\numberline {9}工程制图}{16}{section.9}%
+\contentsline {section}{参考文献}{16}{section*.3}%

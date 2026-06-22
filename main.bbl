@@ -1,0 +1,347 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Kingslake2010}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=ddd13c56730884735934ccbf770f071a}{%
+           family={Kingslake},
+           familyi={K\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2aa5b69a85b3e5ef9d5727cb0460f075}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={R.\bibnamedelimi Barry},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=ddd13c56730884735934ccbf770f071a}{%
+           family={Kingslake},
+           familyi={K\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2aa5b69a85b3e5ef9d5727cb0460f075}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={R.\bibnamedelimi Barry},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press/SPIE}%
+      }
+      \strng{namehash}{b6f14c0a254aede37297366effa96c91}
+      \strng{fullhash}{8e49e2fc9e428f181599292075fe4330}
+      \strng{fullhashraw}{8e49e2fc9e428f181599292075fe4330}
+      \strng{bibnamehash}{8e49e2fc9e428f181599292075fe4330}
+      \strng{authorbibnamehash}{8e49e2fc9e428f181599292075fe4330}
+      \strng{authornamehash}{b6f14c0a254aede37297366effa96c91}
+      \strng{authorfullhash}{8e49e2fc9e428f181599292075fe4330}
+      \strng{authorfullhashraw}{8e49e2fc9e428f181599292075fe4330}
+      \strng{nameabibnamehash}{8e49e2fc9e428f181599292075fe4330}
+      \strng{nameanamehash}{b6f14c0a254aede37297366effa96c91}
+      \strng{nameafullhash}{8e49e2fc9e428f181599292075fe4330}
+      \strng{nameafullhashraw}{8e49e2fc9e428f181599292075fe4330}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Lens Design Fundamentals}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \keyw{Kingslake2010}
+    \endentry
+    \entry{Smith2008}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=6b34ac56f4ac8a0699aabfb601d216d5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Warren\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=6b34ac56f4ac8a0699aabfb601d216d5}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Warren\bibnamedelima J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{fullhash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{fullhashraw}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{bibnamehash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{authorbibnamehash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{authornamehash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{authorfullhash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{authorfullhashraw}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{nameabibnamehash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{nameanamehash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{nameafullhash}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \strng{nameafullhashraw}{6b34ac56f4ac8a0699aabfb601d216d5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Modern Optical Engineering}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \keyw{Smith2008}
+    \endentry
+    \entry{Yu2016}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=63f2c3ba16c32db1dccdda9abf75e760}{%
+           family={郁道银},
+           familyi={郁\bibinitperiod}}}%
+        {{hash=884c31e0ba6b051a4ba85e232e2f58c3}{%
+           family={谈恒英},
+           familyi={谈\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=63f2c3ba16c32db1dccdda9abf75e760}{%
+           family={郁道银},
+           familyi={郁\bibinitperiod}}}%
+        {{hash=884c31e0ba6b051a4ba85e232e2f58c3}{%
+           family={谈恒英},
+           familyi={谈\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{location}{1}{%
+        {北京}%
+      }
+      \list{publisher}{1}{%
+        {机械工业出版社}%
+      }
+      \strng{namehash}{e208f0ee0cba3449982cb024ac00671e}
+      \strng{fullhash}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{fullhashraw}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{bibnamehash}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{authorbibnamehash}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{authornamehash}{e208f0ee0cba3449982cb024ac00671e}
+      \strng{authorfullhash}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{authorfullhashraw}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{nameabibnamehash}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{nameanamehash}{e208f0ee0cba3449982cb024ac00671e}
+      \strng{nameafullhash}{c3888dcb230637d39a9181a92f3b1aeb}
+      \strng{nameafullhashraw}{c3888dcb230637d39a9181a92f3b1aeb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{工程光学}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \keyw{Yu2016}
+    \endentry
+    \entry{Mu2000}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=a354225e4226ec4a1cf8bb8b4b239294}{%
+           family={母国光},
+           familyi={母\bibinitperiod}}}%
+        {{hash=8038fbc4a4a20057e31e3e2b47b3773e}{%
+           family={战元龄},
+           familyi={战\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=a354225e4226ec4a1cf8bb8b4b239294}{%
+           family={母国光},
+           familyi={母\bibinitperiod}}}%
+        {{hash=8038fbc4a4a20057e31e3e2b47b3773e}{%
+           family={战元龄},
+           familyi={战\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \list{location}{1}{%
+        {北京}%
+      }
+      \list{publisher}{1}{%
+        {高等教育出版社}%
+      }
+      \strng{namehash}{b511ebc38fe216adbf102a01842a0418}
+      \strng{fullhash}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{fullhashraw}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{bibnamehash}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{authorbibnamehash}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{authornamehash}{b511ebc38fe216adbf102a01842a0418}
+      \strng{authorfullhash}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{authorfullhashraw}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{nameabibnamehash}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{nameanamehash}{b511ebc38fe216adbf102a01842a0418}
+      \strng{nameafullhash}{bbc6b0285bf7f9961796f675b73ddd11}
+      \strng{nameafullhashraw}{bbc6b0285bf7f9961796f675b73ddd11}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{光学}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \keyw{Mu2000}
+    \endentry
+    \entry{Zemax2021}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ca62b098eba296b85444d8ff0310498d}{%
+           family={{Zemax LLC}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=ca62b098eba296b85444d8ff0310498d}{%
+           family={{Zemax LLC}},
+           familyi={Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{fullhash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{fullhashraw}{ca62b098eba296b85444d8ff0310498d}
+      \strng{bibnamehash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{authorbibnamehash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{authornamehash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{authorfullhash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{authorfullhashraw}{ca62b098eba296b85444d8ff0310498d}
+      \strng{nameabibnamehash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{nameanamehash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{nameafullhash}{ca62b098eba296b85444d8ff0310498d}
+      \strng{nameafullhashraw}{ca62b098eba296b85444d8ff0310498d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{Zemax OpticStudio用户手册}
+      \field{usera}{A}
+      \field{userd}{chinese}
+      \field{userf}{english}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.zemax.com/
+      \endverb
+      \verb{url}
+      \verb https://www.zemax.com/
+      \endverb
+      \keyw{Zemax2021}
+    \endentry
+    \entry{Born1999}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=f3c12b2ab192a232977c790c202ae18a}{%
+           family={Born},
+           familyi={B\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f3da79454ab0edb86f37a6038d1998f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \name{namea}{2}{}{%
+        {{hash=f3c12b2ab192a232977c790c202ae18a}{%
+           family={Born},
+           familyi={B\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4f3da79454ab0edb86f37a6038d1998f}{%
+           family={Wolf},
+           familyi={W\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{2ecc32babd625467614fcde4c2be138c}
+      \strng{fullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{fullhashraw}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{bibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorbibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authornamehash}{2ecc32babd625467614fcde4c2be138c}
+      \strng{authorfullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{authorfullhashraw}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{nameabibnamehash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{nameanamehash}{2ecc32babd625467614fcde4c2be138c}
+      \strng{nameafullhash}{b14dea9f75ec6824071689113c5b3d02}
+      \strng{nameafullhashraw}{b14dea9f75ec6824071689113c5b3d02}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Principles of Optics}
+      \field{usera}{M}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \keyw{Born1999}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
