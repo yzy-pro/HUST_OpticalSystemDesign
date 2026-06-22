@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.27)  22 JUN 2026 19:46
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.27)  22 JUN 2026 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -527,27 +527,35 @@ LaTeX Font Info:    Calculating math sizes for size <15> on input line 35.
 
 
 
-[2] (./chapters/chapter1/chapter1.tex
+[2] (./chapters/abstract/abstract.tex)
 
-[3]) (./chapters/chapter2/chapter2.tex [4]) (./chapters/chapter3/chapter3.tex [5]
+[3] (./chapters/chapter1/chapter1.tex
 
-[6]) (./chapters/chapter4/chapter4.tex
+[4]) (./chapters/chapter2/chapter2.tex) (./chapters/chapter3/chapter3.tex
 
-[7]
+[5]
+
+[6]
+
+[7]) (./chapters/chapter4/chapter4.tex
 
 [8]) (./chapters/chapter5/chapter5.tex
 
-[9] [10]) (./chapters/chapter6/chapter6.tex
+[9]
 
-[11]
+[10]
+
+[11]) (./chapters/chapter6/chapter6.tex
 
 [12]) (./chapters/chapter7/chapter7.tex
 
 [13]) (./chapters/chapter8/chapter8.tex
 
-[14]) (./chapters/chapter9/chapter9.tex) (./chapters/chapter10/chapter10.tex)
+[14]) (./chapters/chapter9/chapter9.tex
 
-[15] (./main.aux)
+[15]) (./chapters/chapter10/chapter10.tex)
+
+[16] (./main.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2022/07/14>
@@ -556,12 +564,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BA1757A3D0CC8169681D20E1CE00C776;6102.
  ) 
 Here is how much of TeX's memory you used:
- 15507 strings out of 470267
- 364422 string characters out of 5484665
- 749832 words of memory out of 5000000
- 41885 multiletter control sequences out of 15000+600000
+ 15515 strings out of 470267
+ 364694 string characters out of 5484665
+ 748832 words of memory out of 5000000
+ 41890 multiletter control sequences out of 15000+600000
  641273 words of font info for 131 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,10n,112p,417b,465s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,10n,112p,417b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (16 pages, 280600 bytes).
+Output written on main.xdv (17 pages, 280716 bytes).

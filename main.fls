@@ -217,6 +217,11 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT main.toc
+INPUT ./chapters/abstract/abstract.tex
+INPUT ./chapters/abstract/abstract.tex
+INPUT ./chapters/abstract/abstract.tex
+INPUT ./chapters/abstract/abstract.tex
+INPUT chapters/abstract/abstract.tex
 INPUT ./chapters/chapter1/chapter1.tex
 INPUT ./chapters/chapter1/chapter1.tex
 INPUT ./chapters/chapter1/chapter1.tex
